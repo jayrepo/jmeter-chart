@@ -1,0 +1,15 @@
+{
+  "name": "jmeter-chart",
+  "version": "1.0.0",
+  "description": "An application for drawing jemter chart",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "productName": "JMeter Chart",
+  "author": "Jay Chen",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "1.8.4"
+  }
+}

@@ -1,0 +1,34 @@
+/* body {
+  font: 12px sans-serif;
+} */
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.axis text {
+  font-size: 1em;
+}
+
+.legend text {
+  font-size: 1em;
+}
+
+.line {
+  fill: none;
+  stroke: red;
+  stroke-width: 1.5px;
+}
+
+.area {
+  stroke: #53A6DD;
+  fill: #53A6DD;
+  fill-opacity: 0.3;
+}

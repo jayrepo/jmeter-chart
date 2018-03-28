@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- <div class="container-fluid"> -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="form-row">
+      <div class="input-group col-md-5">
+        <div class="input-group-prepend">
+          <span class="input-group-text">CSV</span>
+        </div>
+        <div class="custom-file">
+          <input type="file" accept=".csv" class="custom-file-input" id="csv">
+          <label class="custom-file-label" for="csv">Select Your CSV</label>
+        </div>
+      </div>
+      <div class="input-group col-md-7">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Group By (ms)</span>
+        </div>
+        <input type="text" id="groupby" value="1000" class="form-control">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Width</span>
+        </div>
+        <input type="text" value="1000" id="width" class="form-control">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Height</span>
+        </div>
+        <input type="text" value="500" id="height" class="form-control">
+        <div class="input-group-append">
+          <button class="btn btn-primary" id="apply" type="button">Apply</button>
+        </div>
+      </div>
+    </div>
+    </nav>
+  <!-- </div> -->
+
+  <div class="container-fluid">
+    <div class="check"></div>
+  </div>
+  <div class="container-fluid chart">
+  </div>
+  <script src="js/d3.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
